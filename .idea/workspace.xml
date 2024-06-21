@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95da92d5-0e72-4a4a-b16c-cdfdbb009216" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/callback_datas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/start_buutons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/echo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/help.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/callback_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/callback_datas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/start_buutons.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/start_buutons.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
     "Python.echo.executor": "Run",
     "Python.ffffffff.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.start_buutons.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -160,9 +159,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="start_buutons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Assistant + Notion + GPT + Telegram" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keyboards/inline" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keyboards/inline/start_buutons.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.start_buutons" />
         <item itemvalue="Python.echo" />
         <item itemvalue="Python.config" />
         <item itemvalue="Python.ffffffff" />
@@ -236,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718992520932</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1718996300684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718996300684</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
